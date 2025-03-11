@@ -1,6 +1,3 @@
-MOALIC Romain : n°22202218
-DOGUET Thomas : n°22205490
-
 Commande de compilation :
 javac -cp "lib/*" -d build src/**/*.java src/**/**/*.java
 
