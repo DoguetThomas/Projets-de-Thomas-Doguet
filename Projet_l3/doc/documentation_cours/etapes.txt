@@ -1,0 +1,30 @@
+GRAND 1
+
+1 - Former les points exacts avec la formule (256*x+vect_x, 256*y+vect_y)
+
+2 - Normalisation des valeurs de ces points : 
+	Normalize.py : facteur 1000 pour retrouver une valeur entre 0 et 1000 -> Eviter les log négatifs par la suite
+	
+	
+3- Compression des trajectoires :
+        Part 3.3 -> Partitionning avec cet algo, retrouver les grands segments des trajectoires pour éliminer le bruit et les découper efficacement
+
+
+
+
+
+
+
+
+
+
+
+
+
+APRES BIEN APRES
+GRAND 2 - Algorithme k-means / k-medoids ou Propagation d'affinités :
+		Un seul sur les trois : ils font tous la même chose mais différemment
+
+
+GRAND 3 - Extraire les motifs réguliers en clusters de segments
+		PrefixSpan : Algo de détection de motifs

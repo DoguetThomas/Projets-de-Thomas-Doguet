@@ -1,0 +1,21 @@
+Sujet SD : DotA et analyse de trajectoires
+DotA 2 est un jeu de stratégie multi-joueurs en temps réel. Pour analyser ou commenter ce type, il
+est important de détecter les déplacements coordonnés des joueurs sur la carte. L'objectif de ce
+projet est d'identifier, à partir d'un jeu de données disponible sur eCampus, des segments de
+trajectoires seconde par seconde sur des matchs de 45 minutes. Une manière de réaliser cela est
+d'utiliser des algorithmes d'apprentissage non supervisé. Ces algorithmes, comme l'_algorithme des
+k-moyennes_ou de la propagation d'affinité, permettent de regrouper des éléments en fonction de
+leur similarité et de découvrir des clusters, des groupes de données similaires entre elles et
+dissimilaires des autres groupes. Une fois cela réalisé, il sera possible d'avoir une base de données
+de trajectoires prototypiques et d'en extraire des connaissances (ex. quand un joueur débute telle
+trajectoire alors ses coéquipiers débutent telle trajectoire). Pour ce faire, il est nécessaire d'extraire
+des régularités en fonction du temps et il est possible d'utiliser pour cela un algorithme de détection
+de motifs comme PrefixSpan.
+Compresser les trajectoires avec l'approche MDL pour les transformer en suites de segments
+Implémenter un algorithme comme k-moyennes ou propagation d'affinité pour identifier des
+clusters de segments et leurs représentants (quelques centaines)
+Recoder les trajectoires en des suites de segments représentants (suites de symboles)
+Extraire les régularités en terme de clusters de segment en implémentant un algorithme de
+détection de motifs temporalisés comme PrefixSpan
+Question scientifique : quelles connaissances sur les stratégies des joeurs pouvons-nous
+extraire de leurs trajectoires ?
